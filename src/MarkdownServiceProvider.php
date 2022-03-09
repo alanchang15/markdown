@@ -25,8 +25,8 @@ use Illuminate\View\Engines\CompilerEngine;
 use Laravel\Lumen\Application as LumenApplication;
 use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\ConfigurableEnvironmentInterface;
-use League\CommonMark\Environment;
-use League\CommonMark\EnvironmentInterface;
+use League\CommonMark\Environment\Environment;
+use League\CommonMark\Environment\EnvironmentInterface;
 use League\CommonMark\MarkdownConverterInterface;
 
 /**
